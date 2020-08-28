@@ -1,0 +1,20 @@
+{
+   "name": "Generate-Unique-Emails-by-checking-against-Okta-O365-or-G-Suite",
+   "title": "Generate Unique Emails by checking against Okta O365 or G-Suite",
+   "description": "To Onboard users in an organization, IT needs to generate unique Email Address for the end users in downstream applications like O365, Gsuite.etc. This flow generates the unique email Address for all the users onboarded in Okta.",
+   "connectors": [
+      "Okta",
+      "Office365 Admin",
+      "GSuite Admin"
+   ],
+   "links": [
+      {
+         "title": "Video Walk-through",
+         "destination": "https://www.loom.com/share/8d0367bc3b354cff86f4956f8c5f8ba7"
+      },
+      {
+         "title": "Setup Documentation",
+         "destination": "https://github.com/krishvenkatraman-okta/Generate-Unique-Emails-by-checking-against-Okta-O365-or-G-Suite/README.md"
+      }
+   ]
+}
