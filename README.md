@@ -41,9 +41,9 @@ Before you get started, you will need
 4. Enable other subflows.
 5. Establish the connections to the target apps inside the main workflow you choose.
 6. Create a string array attribute in Okta called proxyAddresses.
-7. Based on which ever flow you select from above, Open the email-Generation flow and in the end add the ProxyAddresses attribute to the update card and map it as per screenshot below
+7. Based on the flow you select, Open the email-Generation flow and in the end add the ProxyAddresses attribute to the update card and map it as per screenshot below
 
-![image]([https://user-images.githubusercontent.com/14205843/91586593-74fe7780-e90a-11ea-99c0-77e2c9449cac.png](https://user-images.githubusercontent.com/14205843/91586593-74fe7780-e90a-11ea-99c0-77e2c9449cac.png))
+![image](https://user-images.githubusercontent.com/14205843/92627397-280e8f80-f280-11ea-87b2-8d47e9bbf232.png)
 
 8. If you use “Google-Email-Generation” or “O365-Email-Generation” flow. Open the flow and update your email domain in the AssignEmailDomain card. If your O365 federated domain is jeykrish.com use @jeykrish.com
 9. .if you use “Okta-New-Email” generation, follow the additional steps below.
