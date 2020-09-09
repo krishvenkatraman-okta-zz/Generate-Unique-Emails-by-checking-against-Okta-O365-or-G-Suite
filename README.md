@@ -62,7 +62,7 @@ Before you get started, you will need
 4. Click on the “Where Expression” section in the search table flow. Make sure the brandID is mapped there properly. Save the flow.
 5. Now go to the table section and click on the provisioning table and update the table as below example.
 
-![image]([https://user-images.githubusercontent.com/14205843/90940864-24949080-e3c5-11ea-875e-5ba3f8415238.png](https://user-images.githubusercontent.com/14205843/90940864-24949080-e3c5-11ea-875e-5ba3f8415238.png))
+![image](https://user-images.githubusercontent.com/14205843/92627541-5c824b80-f280-11ea-9f06-f2098daaed44.png)
 
 6. In my example I have emailTenant representing different end points for validating Email uniqueness. If you just have one O365 instance with multiDomain you can remove this from the table and go back to the flow to change the logic. 
 
@@ -70,17 +70,16 @@ Before you get started, you will need
 
 1. If you have the multiple O365 instances. Just go back to multidomain flow after completing step 6. Edit conditions in if else logic.            
 
-![image]([https://user-images.githubusercontent.com/14205843/92623858-afa5cf80-f27b-11ea-9617-a7094f2b8db0.png](https://user-images.githubusercontent.com/14205843/92623858-afa5cf80-f27b-11ea-9617-a7094f2b8db0.png))
+![image](https://user-images.githubusercontent.com/14205843/92623858-afa5cf80-f27b-11ea-9617-a7094f2b8db0.png)
 
 2. For example you can use the brand domain instead of emailTenant. In that way based on the domain you can execute the logic.
 
-                      ![image](https://user-images.githubusercontent.com/14205843/92624040-e7147c00-f27b-11ea-8953-31c224c557eb.png)
+![image](https://user-images.githubusercontent.com/14205843/92624040-e7147c00-f27b-11ea-8953-31c224c557eb.png)
 
 3. Inside the else section make sure you create cards exactly like the one in If. Since all are executing in O365. Follow the same steps if you use other email tenants.
 4. Make sure all connections are setup to proper email tenants.
 
-                 
-
+                
 **Single O365 tenants with Multiple domains**
 
 1. If you have a single O365 tenant with multiple domains. Use the “O365-Email-Generation” flow instead of MultiDomain flow.
