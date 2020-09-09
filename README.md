@@ -46,7 +46,7 @@ Before you get started, you will need
 ![image](https://user-images.githubusercontent.com/14205843/92627397-280e8f80-f280-11ea-87b2-8d47e9bbf232.png)
 
 8. If you use “Google-Email-Generation” or “O365-Email-Generation” flow. Open the flow and update your email domain in the AssignEmailDomain card. If your O365 federated domain is jeykrish.com use @jeykrish.com
-9. .if you use “Okta-New-Email” generation, follow the additional steps below.
+9. If you use “Okta-New-Email” generation, follow the additional steps below.
 *   Create a String-array attribute in Okta user profile called proxyAddresses	
 *   Populate the ProxyAddresses attribute from your AD domain or create a sample value as below. This is to test the uniqueness against Okta.
 
